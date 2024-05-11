@@ -23,6 +23,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.krish a{
+  text-decoration: none;
+  color: black;
+}
+
+.krish:hover a{
+  text-decoration: underline;
+  color: blue;
+}
+
 .navbar-links {
   display: flex;
   column-gap: 10px;
@@ -37,7 +47,6 @@ body {
   text-decoration: underline;
   color: blue;
 }
-
 
 /* home section */
 .header {
@@ -117,15 +126,13 @@ body {
 /* contact section */
 
 .contact {
-  
   margin-top: 20px;
   text-align: center;
   row-gap: 10px;
   padding: 20px;
-  
 }
 
-.contact div{
+.contact div {
   padding: 20px;
 }
 /* footer section */
@@ -133,7 +140,6 @@ body {
   background-color: white;
   margin-top: 20px;
   text-align: center;
- 
 }
 .footer i {
   column-gap: 10px;
@@ -149,7 +155,6 @@ body {
 
 /*Media Query*/
 @media screen and (max-width: 700px) {
-
   .navbar-links {
     display: none;
   }
@@ -157,24 +162,29 @@ body {
     align-items: center;
     flex-direction: column-reverse;
   }
- .header-one{
-  text-align: center; 
- 
- }
-    
-  
-  .header-two img{
+  .header-one {
+    text-align: center;
+  }
+
+  .header-two img {
     width: 400px;
     height: 500px;
-    
   }
 
   .whiteBG {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    
   }
- 
+
+  .whiteBG div {
+    width: 100%;
+  }
+  .project div img {
+    width: 400px;
+  }
+
+  .project {
+    display: inline;
+    width: max-content;
+  }
 }

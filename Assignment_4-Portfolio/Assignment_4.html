@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio-MERN Bootcamp</title>
+    <title>Navaneetha Krishnan S</title>
     <meta
       name="description"
       content="Exciting MERN Stack Bootcamp for aspiring developers"
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Assignment_4.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/images/krish-favicon.png" type="image/x-icon">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -28,19 +29,18 @@
   <body>
     <!-- navbar section -->
     <nav class="main-navbar">
-      <h1>KRiSH</h1>
+      <h1 class="krish"><a href="https://navaneethakrishnan.rf.gd">KRiSH</a></h1>
       <div class="navbar-links">
-        <p class="link-item"><a href="Assignment_4.html">Home |</a></p>
-        <p class="link-item"><a href="about.html">About |</a></p>
-        <p class="link-item"><a href="skill.html">Skills |</a></p>
-        <p class="link-item"><a href="project.html">Projects |</a></p>
-        <p class="link-item"><a href="contact.html">Contact</a></p>
+        <p class="link-item"><a href="#home">Home |</a></p>
+        <p class="link-item"><a href="#about">About |</a></p>
+        <p class="link-item"><a href="#skill">Skills |</a></p>
+        <p class="link-item"><a href="#project">Projects |</a></p>
+        <p class="link-item"><a href="#contact">Contact</a></p>
       </div>
-      
     </nav>
-   
+
     <!-- home section -->
-    <div class="header">
+    <div class="header" id="home">
       <div class="header-one">
         <h1>Navaneetha Krishnan S</h1>
         <h2 style="font-style: italic">Frontend Developer</h2>
@@ -62,12 +62,12 @@
     <hr />
     <!-- about section -->
 
-    <div>
+    <div id="about">
       <h2 style="text-align: center; padding: 20px">About</h2>
       <h2 style="text-align: center; padding: 20px">Education</h2>
     </div>
 
-    <div class="whiteBG">
+    <div class="whiteBG" >
       <div>
         <i class="fa fa-school"></i>
         <h2>M.Sc Computer Science</h2>
@@ -105,7 +105,7 @@
     <br />
     <hr />
     <!-- skill section -->
-    <div>
+    <div id="skill">
       <h2 style="text-align: center; padding: 20px">Skills</h2>
     </div>
 
@@ -113,24 +113,30 @@
       <div>
         <i class="fa fa-keyboard"></i>
         <h2>Core Language</h2>
-        <p>Python</p>
+        <br />
+        <p style="text-align: center">Python</p>
       </div>
       <div>
         <i class="fa fa-tv"></i>
         <h2>Frontend Development</h2>
-
-        <p>HTML <br />CSS <br />JavaScript <br />React.js <br />Wordpress</p>
+        <br />
+        <p style="text-align: center">
+          HTML <br />CSS <br />JavaScript <br />React.js <br />Wordpress
+        </p>
       </div>
       <div>
         <i class="fa fa-tools"></i>
         <h2>Tools</h2>
-        <p>VS Code <br />Unreal Engine <br />Github <br />Docker</p>
+        <br />
+        <p style="text-align: center">
+          VS Code <br />Unreal Engine <br />Github <br />Docker
+        </p>
       </div>
     </div>
     <br />
     <hr />
     <!-- project section -->
-    <div>
+    <div id="project">
       <h2 style="text-align: center; padding: 20px">Project</h2>
     </div>
     <div class="project">
@@ -184,7 +190,7 @@
     <hr />
     <!-- contact section -->
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <h2 style="text-decoration: underline">CONTACT ME</h2>
 
       <div>
@@ -208,7 +214,9 @@
     <!-- footer section -->
     <div class="footer">
       <h2>Navaneetha Krishnan S</h2>
-      <p>Thank you for visiting my Portfolio Website <i class="fa fa-heart"></i></p>
+      <p>
+        Thank you for visiting my Portfolio Website <i class="fa fa-heart"></i>
+      </p>
       <a href="https://www.instagram.com/s_navaneetha_krishnan/"
         ><i class="fa-brands fa-instagram"></i
       ></a>
