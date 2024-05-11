@@ -23,12 +23,12 @@ body {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.krish a{
+.krish a {
   text-decoration: none;
   color: black;
 }
 
-.krish:hover a{
+.krish:hover a {
   text-decoration: underline;
   color: blue;
 }
@@ -186,17 +186,15 @@ body {
   .project {
     display: inline;
     width: max-content;
-  
-  
   }
-  .project div{
+  .project div {
     width: 360px;
   }
-  .contact{
+  .contact {
     text-align: center;
   }
   .footer {
-  background-color: bisque;
-   width: 100% !important;
+    background-color: bisque;
+    width: 100% !important;
   }
 }
