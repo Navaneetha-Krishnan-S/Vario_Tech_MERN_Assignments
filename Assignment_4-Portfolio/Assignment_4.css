@@ -154,7 +154,7 @@ body {
 }
 
 /*Media Query*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
   .navbar-links {
     display: none;
   }
@@ -167,7 +167,7 @@ body {
   }
 
   .header-two img {
-    width: 400px;
+    width: 350px;
     height: 500px;
   }
 
@@ -177,14 +177,26 @@ body {
   }
 
   .whiteBG div {
-    width: 100%;
+    width: 350px;
   }
   .project div img {
-    width: 400px;
+    width: 360px;
   }
 
   .project {
     display: inline;
     width: max-content;
+  
+  
+  }
+  .project div{
+    width: 360px;
+  }
+  .contact{
+    text-align: center;
+  }
+  .footer {
+  background-color: bisque;
+   width: 100% !important;
   }
 }
