@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN Bootcamp</title>
+    <meta
+      name="description"
+      content="Exciting MERN Stack Bootcamp for aspiring developers"
+    />
+    <meta name="keywords" content="MERN, Bootcamp, Coding, Development" />
+    <meta name="author" content="Navaneetha Krishnan S" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>jQuery Task-6</h1>
+
+    <p id="welcome-message"></p>
+    <button id="welcome-button">Show Welcome Message</button><br />
+    <hr />
+
+    <input type="text" id="textbox1" />
+    <input type="text" id="textbox2" />
+    <input type="text" id="textbox3" />
+    <input type="text" id="textbox4" />
+    <input type="text" id="textbox5" /><br />
+    <hr />
+
+    <p id="style-target" class="style1">This element's style can be changed.</p>
+    <button id="style-button">Change Style</button><br />
+    <hr />
+
+    <input id="copy-textbox" /><br />
+    <button id="copy-button" class="copy">Copy Text</button>
+  </body>
+
+  <style>
+    body {
+      text-align: center;
+      background-color: beige;
+    }
+    .yellow-background {
+      background-color: yellow;
+    }
+    .style1 {
+      background-color: lightblue;
+      padding: 10px;
+    }
+    .style2 {
+      background-color: darkred;
+      font-weight: bold;
+      color: white;
+      padding: 10px;
+    }
+    .copy {
+      margin-top: 10px;
+    }
+  </style>
+
+  <script>
+    $(document).ready(function () {
+      $("#welcome-button").click(function () {
+        $("#welcome-message").text(
+          "Welcome! My name is Navaneetha Krishnan S."
+        );
+      });
+
+      $("input[type='text']").click(function () {
+        $(this).toggleClass("yellow-background");
+      });
+
+      $("#style-button").click(function () {
+        $("#style-target").toggleClass("style1 style2");
+      });
+
+      $("#copy-button").click(function () {
+        var textToCopy = $("#copy-textbox").val();
+        $("#copy-button").text(textToCopy);
+      });
+    });
+  </script>
+</html>
