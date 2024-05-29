@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://navaneetha-krishnan-s.github.io/Vario_Tech_MERN_Assignments/",
+  "homepage": "https://navaneetha-krishnan-s.github.io/Vario_Tech_MERN_Assignments/Assignment_7/converter"
+  ,
 
   "scripts": {
     "dev": "vite",
